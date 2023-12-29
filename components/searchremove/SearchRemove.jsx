@@ -4,9 +4,9 @@ const SearchRemove = (props) => {
   const { search, setSearch, setPage } = props;
 
   const removeSearch = () => {
-    setSearch('')
-    setPage(1)
-  }
+    setSearch("");
+    setPage(1);
+  };
 
   return (
     <button className="bg-blue-500 dark:bg-blue-600 outline-none flex justify-center items-center rounded-2xl py-1 px-3 text-white text-sm text-center">
